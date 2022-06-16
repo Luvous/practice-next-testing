@@ -25,6 +25,8 @@ export async function getServerSideProps({ params }) {
     }
 }
 
+//Lines 
+
 // export async function getStaticProps({params}){
 //     const req = await fetch(`localhost:3000/${params.id}.json`)
 //     const data = await req.json()
